@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;0,900;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+.header {
+  background: rgba(229, 84, 115, 0.1);
+}
+.container {
+  max-width: 1440px;
+  width: 75%;
+  margin: 0 auto;
+}
+p {
+  color: rgba(39, 39, 39, 0.6);
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+.btn {
+  color: #fff;
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  background: #e55473;
+  cursor: pointer;
+  padding: 10px 30px;
+  border-radius: 8px solid #e55473;
+  border: none;
+}
+.container-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.margin * {
+  margin-bottom: 20px;
+}
+
+.section-content {
+  margin-bottom: 20px;
+  max-width: 525px;
+}
+.section-content h1 {
+  color: #272727;
+  font-family: Lato;
+  font-size: 65px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.section-content p {
+  max-width: 475px;
+}
+
+.container-img img {
+  width: 100%;
+  vertical-align: middle;
+}
+/* featurad-section start heare */
+.featurad-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.featurad-section {
+  margin: 100px auto;
+}
+.featurad-section .featurad-headding {
+  text-align: center;
+  width: 594px;
+  margin: 0 auto;
+}
+.featurad-headding h2 {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.featurad-content .content-des .content-img {
+  padding: 30px 15px 0;
+  height: 500px;
+  width: 350px;
+  display: flex;
+  align-items: end;
+}
+.content-des .container-img img {
+  width: 100%;
+}
+
+.featurad-content .content-des .blacks {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(71, 125, 17, 0.15);
+}
+.featurad-content .content-des .blues {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(167, 33, 98, 0.15);
+}
+.featurad-content .content-des .greens {
+  border-radius: 300px 300px 0px 0px;
+  background: rgba(5, 151, 160, 0.15);
+}
+.featurad-content .content-des p {
+  text-align: center;
+  margin-top: 10px;
+  font-weight: 700;
+  color: black;
+  text-decoration: underline;
+}
+.service-container {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 8px;
+  background: rgba(39, 39, 39, 0.05);
+  padding: 50px 10px;
+}
+
+/* featurad-section start End heare */
+
+.signup {
+  margin: 100px auto;
+}
+.signup .signup-container .signup-contentes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 70px;
+  text-align: center;
+}
+.signup .signup-container .section1 {
+  width: 50%;
+}
+.section2 {
+  width: 50%;
+}
+.section2 img {
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+}
+.insta-heading {
+  text-align: center;
+  width: 594px;
+  margin: 0 auto;
+}
+.insta-heading h1 {
+  color: #272727;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.insta-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.insta-images img {
+  width: 20.5%;
+  margin: 30px;
+}
+.subscribe {
+  background-image: url("../images/Rectangle 9.png");
+  background-repeat: no-repeat;
+  margin-top: 100px;
+  text-align: center;
+  padding: 100px 20px;
+}
+.subscribe h1 {
+  color: #272727;
+  text-align: center;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.subscribe .input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 700px;
+  gap: 20px;
+  margin: 0 auto;
+}
+.subscribe .input input {
+  outline: none;
+  font-size: 18px;
+  padding: 12px 5px;
+  width: 400px;
+  border: none;
+}
+.footer {
+  background: #111010;
+  text-align: center;
+  margin-top: 100px;
+  padding: 50px 0;
+}
+.footer h1 {
+  color: #fff;
+  font-family: Lato;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+span {
+  color: #e55473;
+}
+.footer p {
+  color: #fff;
+  width: 500px;
+  margin: 0 auto;
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
